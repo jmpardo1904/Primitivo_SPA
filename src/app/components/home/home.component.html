@@ -1,0 +1,82 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../../../assets/img/3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{producto1.tipo}}</h5>
+          <p class="card-text">${{producto1.precio}}</p>
+            Talla:<select >
+                <option *ngFor= "let talla of tallas">{{talla}}</option>
+              </select>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../../../assets/img/6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{producto2.tipo}}</h5>
+            <p class="card-text">${{producto2.precio}}</p>
+              Talla:<select >
+                  <option>{{producto2.talla2}}</option>
+                </select>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="../../../../assets/img/4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{producto1.tipo}}</h5>
+          <p class="card-text">${{producto1.precio}}</p>
+            Talla:<select >
+                <option *ngFor= "let talla of tallas">{{talla}}</option>
+              </select>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../../../assets/img/1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{producto1.tipo}}</h5>
+            <p class="card-text">${{producto1.precio}}</p>
+              Talla:<select >
+                  <option *ngFor= "let talla of tallas">{{talla}}</option>
+                </select>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../../../assets/img/2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{producto1.tipo}}</h5>
+            <p class="card-text">${{producto1.precio}}</p>
+              Talla:<select >
+                  <option *ngFor= "let talla of tallas">{{talla}}</option>
+                </select>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../../../assets/img/5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{producto2.tipo}}</h5>
+            <p class="card-text">${{producto2.precio}}</p>
+              Talla:<select >
+                  <option>{{producto2.talla2}}</option>
+                </select>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
